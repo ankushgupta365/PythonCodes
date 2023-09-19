@@ -7,7 +7,7 @@ class Solution:
         posDiag = set() #(r+c) is unique for every diagnol
         def backtrack(r):
             if r==n:
-                ans = ["".join(row) for row in board]   #["..Q."]
+                ans = ["".join(row) for row in board]   #["..Q.", ".Q...", "..Q..", "..Q.."]
                 res.append(ans)
 
             for c in range(n):
@@ -20,7 +20,7 @@ class Solution:
                 board[r][c] = "Q"
 
                 backtrack(r+1)
-                
+
                 board[r][c]= "."
                 negDiag.remove(r-c)
                 posDiag.remove(r+c)
