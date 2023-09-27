@@ -5,11 +5,7 @@ Array.prototype.last = function() {
   if(this.length == []){
       return -1
   }else{
-      let res = null
-      for (let i =0; i<this.length; i++){
-          res = this[i]
-      }
-      return res
+      return this[this.length- 1]
   }
 };
 
