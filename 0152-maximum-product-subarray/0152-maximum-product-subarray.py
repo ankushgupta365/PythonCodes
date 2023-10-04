@@ -12,8 +12,8 @@ class Solution:
                 curMin, curMax = 1,1
                 continue
             tmpMax = curMax
-            curMax = max(n*curMax, n*curMin, n)
-            curMin = min(n*tmpMax, n*curMin, n)
-            maxP = max(maxP, curMax, curMin)
+            curMax = max(n*curMax,max(n*curMin, n))
+            curMin = min(n*tmpMax, min(n*curMin, n))
+            maxP = max(maxP, curMax)
         return maxP
         
