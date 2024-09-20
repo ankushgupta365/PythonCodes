@@ -61,4 +61,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ankushgupta365/PythonCodes/tree/master/0053-maximum-subarray) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/ankushgupta365/PythonCodes/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
